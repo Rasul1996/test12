@@ -5,12 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        .container {
+            background-color: red;
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .box {
+            height: 75px;
+            background-color: green;
+            width: 33%;
+        }
+
+        @media (min-width: 900px) {
+            .container {
+                background-color: yellow;
+                display: block;
+                height: 100vh;
+            }
+
+            .box {
+                margin-top: 1rem;
+                width: 100%;
+                background-color: black;
+            }
+        }
+
+    </style>
 </head>
 <body>
-    salom
-    <!-- dasdasdsad -->
-    <header>asd</header>
-    <main>ads</main>
-    <footer>asdsd</footer>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="box">
+            
+    </div>
+    <div class="box">
+            
+    </div>
 </body>
 </html>
